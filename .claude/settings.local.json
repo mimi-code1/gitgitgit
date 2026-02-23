@@ -1,0 +1,17 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-usoQ9FBXnnxOEbwkciFRlwuSINhCUIXg6TqIyINrQ0xvHPe3"
+  },
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:oraios.github.io)",
+      "Bash(docker --version:*)",
+      "Bash(docker-compose:*)",
+      "Bash(docker info:*)",
+      "Bash(wsl.exe --update:*)",
+      "Bash(docker compose down:*)",
+      "Bash(docker compose up:*)"
+    ]
+  }
+}
